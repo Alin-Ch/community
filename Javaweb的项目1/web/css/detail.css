@@ -1,0 +1,158 @@
+/* 样式表 */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+li{
+    list-style: none;
+}
+.peopleInfo ul{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.peopleInfo ul li{
+    width: 200px;
+    line-height: 60px;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bottom button{
+    margin: 10px;
+}
+.bottom a{
+    margin: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: large;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    float: right;
+    border: 1px solid #fff;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #3c823f;
+}
+.back{
+    width: 150px;
+    height: 53px;
+    text-align: center;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    font-size: large;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    transition: .2s all ease-in-out;
+}
+
+.back:hover{
+    background-color: #3c823f;
+    cursor: pointer;
+}
+
+
+/*修改人员信息模态框*/
+.modal-body{
+    width: 400px;
+    margin: 10px auto 50px auto;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px #d0d0d0;
+    padding: 20px;
+}
+.form-group{
+    width: 260px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px auto;
+}
+.form-group input{
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 5px;
+}
+.form-group select{
+    margin-right: 130px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.modal-footer .reset{
+    width: 80px;
+    line-height: 40px;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #4CAF50;
+    margin-left: 80px;
+}
+.modal-footer .reset:hover{
+    background-color: #3c823f;
+}
+.modal-footer .submit{
+    width: 100px;
+    line-height: 40px;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #4CAF50;
+    margin-left: 40px;
+}
+.modal-footer .submit:hover{
+    background-color: #3c823f;
+}
+
+/*版权声明样式*/
+.footer {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.footer a {
+    color: #999;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #555;
+}
+
+
+
+
+/*版权声明样式*/
+.footer {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.footer a {
+    color: #999;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #555;
+}
+

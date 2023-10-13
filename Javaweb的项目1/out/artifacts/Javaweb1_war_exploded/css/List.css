@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-color: #518f54;*/
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/*让用户知道自己点了哪个块*/
+.actionType{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+.actionType div{
+    width: 150px;
+    line-height: 60px;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+}
+.actionType div:hover{
+    cursor: pointer;
+    background-color: #2f8232;
+}
+
+/*显示老人列表*/
+.people-title{
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #d9d6d6;
+    padding: 10px;
+}
+.people-title .people-top ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.people-title .people-top ul li{
+    line-height: 40px;
+    text-align: center;
+    width: 120px;
+    color: #fff;
+    border: 1px solid #59a45c;
+    background-color: #6dc670;
+    border-radius: 10px;
+}
+.people-title .people .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.people-title .people .item li{
+    line-height: 50px;
+    text-align: center;
+    width: 120px;
+    border-bottom: 1px solid #d9d6d6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.people-title .people .item li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #222222;
+    text-align: center;
+    transition: .1s all;
+}
+.people-title .people .item li a:hover{
+    color: #4caf50;
+    transform: scale(1.1) translateY(-5px);
+}
+
+/*增加人员的盒子*/
+.addPeople{
+    width: 500px;
+    height: 260px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #d9d6d6;
+    padding: 10px;
+}
+.addPeople .addPeople-item{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto 0 auto;
+}
+.addPeople .addPeople-item input{
+    padding: 5px;
+    height: 80%;
+    border-radius: 10px;
+}
+.addPeople .addPeople-item select{
+    height: 80%;
+    width: 45px;
+    margin-left: 30px;
+}
+.button{
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #4caf50;
+}
+
+/*发布公告*/
+.noticeBox{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #d9d6d6;
+    padding: 10px;
+}
+.notice{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+.notice .noticeTime{
+    width: 200px;
+    border-right: 1px solid #999;
+    text-align: center;
+}
+.notice .noticeContent{
+    width: 750px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+.deleteButton{
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    background-color: #4caf50;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.deleteButton:hover{
+    background-color: rgb(0, 143, 7);
+}
+
+.publishBox{
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #e9e9e9;
+    padding: 10px;
+}
+.publishBox textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.publishBox .button{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.publishBox .button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 143, 7);
+}
+
+/*查询板块的样式*/
+.searchBox{
+    width: 350px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #d9d6d6;
+    padding: 10px;
+    text-align: center;
+}
+.searchBox input{
+    border: 1px solid #999;
+    line-height: 28px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.searchBtn{
+    width: 80px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #4caf50;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 20px;
+}
+.searchBtn:hover{
+    background-color: rgb(0, 143, 7);
+}
+
+
+/*退出登录*/
+.logout{
+    display: block;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #4CAF50;
+    margin-top: 10px;
+    margin-left: 90%;
+}
+.logout:hover{
+    background-color: #008f07;
+}
+
+/*版权声明样式*/
+.footer {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.footer a {
+    color: #999;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #555;
+}
+
+
+

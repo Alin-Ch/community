@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Javaweb的项目1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Javaweb1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Javaweb的项目1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Javaweb的项目1" />
+          <element id="library" level="project" name="apache-tomcat-10.1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/大三下JavaWeb/tomcat10-jstl-api-jar/jakarta.servlet.jsp.jstl-api-2.0.0.jar" />
+          <element id="file-copy" path="D:/大三下JavaWeb/tomcat10-jstl-api-jar/jakarta.servlet.jsp.jstl-2.0.0.jar" />
+          <element id="file-copy" path="D:/大三下JavaWeb/mysql-connector-java-8.0.25.jar" />
+          <element id="library" level="project" name="commons-dbutils-1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
